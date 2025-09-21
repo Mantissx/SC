@@ -13,7 +13,7 @@ apt update && apt upgrade -y && update-grub && reboot
 ## INSTALL SCRIPT 
 Masukkan perintah dibawah untuk menginstall Autoscript Premium
 ```
-apt install -y && apt update -y  && wget -q https://raw.githubusercontent.com/Mantissx/SC/main/setup.sh && chmod +x setup.sh && ./setup.sh
+apt update -y  && wget -q https://raw.githubusercontent.com/Mantissx/SC/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 ## `WAJIB IZIN IP, SILAHKAN HUBUNGI ADMIN !`
