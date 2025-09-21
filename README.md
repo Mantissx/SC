@@ -1,7 +1,7 @@
 ## UPGRADE FOR DEBIAN
 Masukkan perintah dibawah jika anda menggunakan OS Debian 11
 ```
-apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
+apt update && apt upgrade -y && apt dist-upgrade -y && reboot
 ```
 
 ##  UPGRADE FOR UBUNTU
@@ -13,7 +13,7 @@ apt update && apt upgrade -y && update-grub && reboot
 ## INSTALL SCRIPT 
 Masukkan perintah dibawah untuk menginstall Autoscript Premium
 ```
-apt update -y  && wget -q https://raw.githubusercontent.com/Mantissx/SC/main/setup.sh && chmod +x setup.sh && ./setup.sh
+apt update && wget -q https://raw.githubusercontent.com/Mantissx/SC/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 ## `WAJIB IZIN IP, SILAHKAN HUBUNGI ADMIN !`
