@@ -15,6 +15,10 @@ Masukkan perintah dibawah untuk menginstall Autoscript Premium
 ```
 apt update && apt install screen -y && screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/Mantissx/SC/main/setup.sh && chmod +x setup.sh && ./setup.sh"
 ```
+Jika mengalami putus koneksi saat instalasi, sambungkan kembali dengan perintah:
+```
+screen -r -d setup
+```
 
 ## `WAJIB IZIN IP, SILAHKAN HUBUNGI ADMIN !`
 
@@ -23,11 +27,6 @@ Masukkan perintah dibawah jika terdapat informasi pembaruan Script untuk versi y
 ```
 wget -q https://raw.githubusercontent.com/Mantissx/SC/main/update.sh && chmod +x update.sh && ./update.sh
 ```
-Jika mengalami putus koneksi saat instalasi, sambungkan kembali dengan perintah:
-```
-screen -r -d setup
-```
-
 ## TESTED ON OS
 - UBUNTU Version 18 Atau 20.04
 - DEBIAN Version 11
