@@ -23,6 +23,10 @@ Masukkan perintah dibawah jika terdapat informasi pembaruan Script untuk versi y
 ```
 wget -q https://raw.githubusercontent.com/Mantissx/SC/main/update.sh && chmod +x update.sh && ./update.sh
 ```
+Jika mengalami putus koneksi saat instalasi, sambungkan kembali dengan perintah:
+```
+screen -r -d setup
+```
 
 ## TESTED ON OS
 - UBUNTU Version 18 Atau 20.04
